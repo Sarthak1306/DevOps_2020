@@ -1,36 +1,26 @@
-#include <iostream>
+#include<iostream>
 using namespace std;
-class decimal{
-    private:
-    int n;
-    int a;
-    public:
-    void get(){
-        cout<<"enter a number";
-        cin>>a;
-       a=n;
-
+class binary{
+public:
+  void convert(int a){
+    int i;
+    int arr[20];
+    for (i=0;a>0;i++){
+      arr[i]=a%2;
+      a=a/2;
     }
-    void convert() {
-      int a[5];
-      int i=0;
-        while(n!=0)
-        {
-        a[i]=n%2;
-        n=n/2;
-        i++;
-        }
-        for(int j=i-1; j>=0; j--)
-        cout<<a[j];
-        }
+    for(i=i-1;i>=0;i--)
+    {
+      cout<<arr[i];
+    }
+  }
 };
-
-int main()
-{
-  decimal d;
-  d.get();
-  d.convert();
-
-
-    return 0;
+int main(){
+  binary num;
+  int a;
+  cout<<"Enter a number : ";
+  cin>>a;
+  num.convert(a);
+  cout<<endl;
+  return 0;
 }
