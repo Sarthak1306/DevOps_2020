@@ -2,10 +2,10 @@
 using namespace std;
 class binary{
 public:
-  void convert(int a){
+  void convert(int a){ // function to convert
     int i;
     int arr[20];
-    for (i=0;a>0;i++){
+    for (i=0;a>0;i++){   // loop
       arr[i]=a%2;
       a=a/2;
     }
@@ -18,9 +18,9 @@ public:
 int main(){
   binary num;
   int a;
-  cout<<"Enter a number : ";
+  cout<<"Enter the number : ";  // variable initialisation
   cin>>a;
-  num.convert(a);
+  num.convert(a); // fuction call 
   cout<<endl;
   return 0;
 }
