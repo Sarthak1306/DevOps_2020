@@ -2,7 +2,7 @@
 using namespace std;
 int main()
 {
-     int n, num, digit, rev = 0;
+     int n, num, digit, rev = 0;  // variable declaration
      cout << "Enter a positive number: ";
      cin >> num;
      n = num;
