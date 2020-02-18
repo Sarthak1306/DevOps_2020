@@ -1,6 +1,6 @@
 #include <iostream>
 using namespace std;
-int main()
+void main()
 {
      int n, num, digit, rev = 0;  // variable declaration
      cout << "Enter a positive number: ";
@@ -17,5 +17,5 @@ int main()
          cout << " The number is a palindrome.";
      else
          cout << " The number is not a palindrome.";
-    return 0;
+    
 }
