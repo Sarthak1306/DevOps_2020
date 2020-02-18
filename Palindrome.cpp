@@ -1,8 +1,8 @@
 #include <iostream>
 using namespace std;
-void main()
+int main()
 {
-     int n, num, digit, rev = 0;  // variable declaration
+     int n,x,y,z, num, digit, rev = 0;  // variable declaration
      cout << "Enter a positive number: ";
      cin >> num;
      n = num;
@@ -13,9 +13,9 @@ void main()
          num = num / 10;
      } while (num != 0);
      cout << " The reverse of the number is: " << rev << endl;
-     if (n == rev)
+     if (n == rev)//if condition introduced
          cout << " The number is a palindrome.";
      else
          cout << " The number is not a palindrome.";
-    
+//code ended    
 }
