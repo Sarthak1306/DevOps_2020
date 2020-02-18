@@ -1,5 +1,8 @@
-this is my first line
-this is my second line
+this is idk what the hell
+why is this not merging lol
 this is my third line
 this is my fourth line
-this is my fifth commit 
+this is my fifth commit
+trying to merge now
+i hope it works
+hello please terminal work!
