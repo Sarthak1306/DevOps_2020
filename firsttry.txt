@@ -1,9 +1,20 @@
+<<<<<<< HEAD
 this is idk what the hell
-PLEASE QWORK FOR GIODS SAKE
-this is my third line
+PLEASE QWORK FOR GIODS SAK
+
+his is my third line
+=======
+merging is ver annoyijng omg
+im so stressed
+this is my thrd line
+>>>>>>> hotfix
 this is my fourth line
 SDHJFQWVHWEFJVHEWFQ
 trying to merge now
 i hope it works
 hello please terminal work!
+<<<<<<< HEAD
 NP CLUIEFHDSJHCJSJDHFEIUFHEWIUJDHF
+=======
+i hope this time it works
+>>>>>>> hotfix
