@@ -1,13 +1,13 @@
 #include <iostream>    // Header Stream
 int main(int argc, char const *argv[]) {  // main declaration
-  string a;
- string b;
+  string A;
+ string B;
 
- cin >>a;
- cin >> b;
- cout << a.size() <<" "<<b.size()<<endl;
- cout << a + b<< endl;
- cout <<b.front() + a.substr(1, a.size()-1) << " "<< a.front() + b.substr(1, b.size()-1);
+ cin >>A;
+ cin >> B;
+ cout << A.size() <<" "<<B.size()<<endl;
+ cout << A + B<< endl;
+ cout <<A.front() + A.substr(1, A.size()-1) << " "<< A.front() + B.substr(1, B.size()-1);
 
   return 0;
 }
