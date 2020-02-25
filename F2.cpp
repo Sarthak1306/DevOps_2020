@@ -1,5 +1,5 @@
-#include <iostream>
-int main(int argc, char const *argv[]) {
+#include <iostream>    // Header Stream
+int main(int argc, char const *argv[]) {  // main declaration
   string a;
  string b;
 
