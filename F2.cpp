@@ -8,6 +8,7 @@ int main(int argc, char const *argv[]) {  // main declaration
  cout << A.size() <<" "<<B.size()<<endl;
  cout << A + B<< endl;
  cout <<A.front() + A.substr(1, A.size()-1) << " "<< A.front() + B.substr(1, B.size()-1);
-
+ cout << "The Code is Complete! Hurray!";
+ cout<<"YOYOYOOYOY";
   return 0;
 }
